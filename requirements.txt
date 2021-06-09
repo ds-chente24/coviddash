@@ -1,0 +1,24 @@
+# This file may be used to create an environment using:
+# $ conda create --name <env> --file <this file>
+# platform: osx-64
+dash==1.14.0
+dash-bootstrap-components==0.12.2
+dash-core-components==1.10.2
+dash-html-components==1.0.3
+dash-renderer==1.6.0
+dash-table==4.9.0
+geopandas==0.8.1
+geos==3.8.0
+geotiff==1.5.1
+gunicorn==20.0.4
+json-c==0.13.1
+jsonschema==3.2.0
+numpy==1.18.1
+numpy-base==1.18.1
+pandas==1.2.4
+plotly==4.14.3
+plotly-geo==1.0.0
+plotly-orca==1.2.1
+pytz==2020.1
+
+
