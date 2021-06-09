@@ -397,6 +397,3 @@ def demo_graph(value):
     else:
         return fig_rd_pct, fig_rd10k
 
-#Run local server
-if __name__=='__main__':
-    app.run_server(debug=False)
