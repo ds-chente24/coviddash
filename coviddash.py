@@ -47,7 +47,7 @@ m_df['vax_adj_cper100k'] = ((m_df['vax_adj_cr']*100000)).round(2)
 m_df.fillna(0, inplace=True)
 
 #fips data
-df_fips = pd.read_csv('ca_fips_county.csv', dtype={'fips':str})
+df_fips = pd.read_csv('https://github.com/ds-chente24/coviddash/blob/5a8c915f9f30315aa8012177f982fe23b43dc647/ca_fips_county.csv', dtype={'fips':str})
 m_df_fips = m_df.reset_index().merge(df_fips, on='county', how='left').set_index('date')
 
 #County Map
