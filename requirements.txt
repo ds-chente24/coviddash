@@ -8,7 +8,6 @@ dash-html-components==1.0.3
 dash-renderer==1.6.0
 dash-table==4.9.0
 geopandas==0.8.1
-geos==3.8.0
 geotiff==1.5.1
 gunicorn==20.0.4
 json-c==0.13.1
