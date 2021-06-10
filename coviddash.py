@@ -183,6 +183,7 @@ fig_rd10k.update_layout(title='New Deaths Rate by Race/Ethnicity',
 
 #Create the Dash app
 app = dash.Dash(external_stylesheets=[dbc.themes.BOOTSTRAP])
+server = app.server
 
 #Setup the app layout
 tab1_content= dbc.Card(dbc.CardBody([dcc.Graph(id='choropleth',figure=fig_px,
